@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #262729;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5% 10%;
+    z-index: 10;
+}
+
+.nav_logo{
+    height: 35%;
+}
+
+.nav_right{
+    display: flex;
+    gap: 10%;
+    height: 100%;
+    width: 20%;
+}
+
+.nav_dropdown{
+
+    background: rgba(0, 0, 0, 0.4);    /* This is used to make background semi tranparent */
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: white;
+    padding: 0.4rem 0.9rem;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.language_dropdown{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+.language_dropdown:hover{
+    cursor: pointer;
+}
+.translate{
+   width: 12%;
+   
+}
+
+.Signin_button{
+    font-size: 0.9rem;
+    font-weight: 550;
+    background-color: #dc030f;
+    border: #dc030f;
+    border-radius: 3px;
+    color: white;
+    padding: 0.4rem 0.6rem;
+    height: 2rem;
+    width: 5rem;
+}
+
+.Signin_button:hover{
+    cursor: pointer;
+}
+
+.hero_bg{
+    position: absolute;
+    height: 83%;
+    width: 83%;
+    transform: scale(1.4);
+    background-size: cover ;
+}
+
+.hero_bg_img{
+    
+    height: 100%;
+    width: 100%;
+}
+.hero_bg_dim{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);            /*This is used to make background semi tranparent */
+    inset: 0;                                     /* Used to bring it on the backgroud */
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 60%,  rgba(0,0,0,0.8) 100%);
+
+}
+
+.hero_card{
+   position: absolute;
+   top: 42%;
+   left: 15%;
+   text-align: center;
+   line-height: 3.1rem;
+
+}
+.hero_card_heading{
+ font-size: 2.5rem;
+ font-weight: 900;
+ padding-bottom: 1%;
+
+}
+
+.hero_card_sub_heading{
+font-weight: 100;
+}
+
+.hero_card_description{
+    font-size:1.2rem ;
+}
+
+.hero_email{
+    display: flex;
+    position: absolute;
+    top: 65%;
+    left: 32%;
+}
+
+.hero_email_section{
+    padding: 6% 30%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.5);  
+   
+}
+
+.hero_email_section::placeholder{
+    position: absolute;
+    left: 5%;
+    color: gainsboro;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 4%;
+}
+
+.hero_email_button{
+width: 100%;
+padding: 0% 10%;
+border-radius: 3px;  
+background-color: #dc030f;
+    border: #dc030f;  
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.hero_email_button:hover{
+    cursor: pointer;
+}
+
+/* **************************SECTION 2******************************* */
+
+.page2{
+    margin-top: 7px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 3%;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+.leftside-p2{
+   font-size: 1.5rem;
+}
+.leftside-p2 h1{
+    font-size: 2em;
+    font-weight: 800;
+    padding-bottom: 2%;
+}
+
+
+.tv{
+    position: relative;
+    width: 90%;
+    z-index: 2;
+
+}
+.video{
+    position: absolute;
+    left: 54%;
+    top: 27%;
+    width: 28%;
+  z-index: 1;
+    
+}
+
+/* **************************SECTION 3******************************* */
+
+.page3{
+    position: absolute;
+    top: 181%;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 80%;
+    width: 100%;
+}
+
+.rightside-p3{
+    font-size: 1.5rem;
+}
+
+.rightside-p3 h1{
+    font-size: 2em;
+    font-weight: 800;
+    padding-bottom: 2%;
+}
+
+/* **************************SECTION 4******************************* */
+
+
+.page4{
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    position: absolute;
+    top: 262%;
+    background-color: black;
+    color: white;
+    height: 80%;
+    width: 100%;
+}
+
+.leftside-p4{
+    font-size: 1.5rem;
+}
+
+.leftside-p4 h1{
+    font-size: 2em;
+    font-weight: 800;
+    padding-bottom: 2%;
+}
+
+.devices{
+    position: relative;
+    z-index: 2;
+}
+
+.video-2{
+    position: absolute;
+    left: 56%;
+    width: 26%;
+    top: 14%;
+    z-index: 1;
+}
+
+/* **************************SECTION 5******************************* */
+
+.page5{
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 4%; */
+    position: absolute;
+    top: 343%;
+    height: 80%;
+    width: 100%;
+    background-color: black;
+}
+
+.rightside-p5{
+    font-size: 1.5rem;
+}
+
+.rightside-p5 h1{
+    font-size: 2em;
+    font-weight: 800;
+    padding-bottom: 2%;
+}
+
+.children{
+    width: 95%;
+}
