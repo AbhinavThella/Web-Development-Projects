@@ -76,7 +76,7 @@ a{
 .right ul{
     width: 100%;
     text-align: right;
-    padding-right: 1%;
+    padding-right: 3%;
 
 }
 
@@ -132,7 +132,7 @@ color: brown;
     gap: 2%;
     width: 50%;
     z-index: 9;
-    top: 60%;
+    top: 65%;
     left: 8%;
     
 }
@@ -149,7 +149,7 @@ color: brown;
 .hero-resume{
     position: absolute;
     z-index: 9;
-    top: 70%;
+    top: 73%;
     left: 8%;
     background-color: #a52a2a;
     padding: 1%;
@@ -182,9 +182,9 @@ color: brown;
 
 .About{
     padding-top: 17%;
-    /* text-align: justify; */
+    text-align: justify;
     height: 100%;
-    width: 100%;
+    width: 98%;
     font-size: 1.2rem;
     padding: 14% 0 0 49%;
     /* text-align: right; */
@@ -269,7 +269,17 @@ color: brown;
     width: 90%;
     height: 100%;
     padding: 2% 0;
+    margin-bottom: 3%;
 }
 .textarea ::placeholder{
     height: 100%;
+}
+.cbutton{
+    padding: 1.2% 2%;
+    border: 0;
+    border-radius: 2px;
+}
+.cbutton:hover{
+    cursor:pointer;
+    background-color: rgb(210, 189, 189);
 }
