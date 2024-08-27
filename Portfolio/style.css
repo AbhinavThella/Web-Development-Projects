@@ -195,6 +195,7 @@ color: brown;
     font-size: 4rem;
     padding-bottom: 1%;
     color: brown;
+    -webkit-text-stroke: 1px black;
 }
 
 .about-pic{
@@ -227,6 +228,7 @@ color: brown;
     font-size: 4rem;
     padding-bottom: 1%;
     color: brown;
+    -webkit-text-stroke: 1px black;
 }
 
 .skills-left ul{
