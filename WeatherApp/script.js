@@ -11,6 +11,7 @@ async function apiCall(city) {
     }
     else {
         let data = await response.json()
+        console.log(data)
 
         document.getElementById('city').innerHTML = data.name
         document.getElementById('temp').innerHTML = Math.round(data.main.temp) + "°C"
@@ -18,7 +19,18 @@ async function apiCall(city) {
         document.getElementById('wind-value').innerHTML = data.wind.speed + " km/h"
         document.getElementById('climate').src = "images/" + data.weather[0].main + ".png"
         document.querySelector('.weather').style.display = "block"
-        document.querySelector('.error').style.display = 'none'        
+        document.querySelector('.error').style.display = 'none'       
+        console.log(data.weather[0].main) 
+
+        if(data.weather[0].main==='Drizzle'||data.weather[0].main==='Rain'||data.weather[0].main==='Thunderstorm'){
+            document.querySelector('.bg').src="images/rainySky.jpg"
+        }
+        else if(data.weather[0].main==='Haze'||data.weather[0].main==='Clouds'){
+            document.querySelector('.bg').src="images/cloudySky.jpg"
+        }
+        else{
+            document.querySelector('.bg').src="images/Scene-7.jpg"
+        }
     }
 }
 
