@@ -1,12 +1,36 @@
-# React + Vite
+# 🔐 Password Generator React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast and secure **React + Vite** powered Password Generator that helps users create strong, customizable passwords with just a few clicks.
 
-Currently, two official plugins are available:
+🌐 **Live Demo**: [Password Generator App](http://password-generator-appreact.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Generate secure and random passwords
+- 🎚️ Adjustable password length
+- 🔘 Options to include:
+  - Uppercase letters
+  - Lowercase letters
+  - Numbers
+  - Symbols
+- 📋 Copy to clipboard functionality
+- ⚡ Built with Vite for lightning-fast performance
+- 📱 Fully responsive design
+
+---
+
+## 🚀 Tech Stack
+
+- **React.js** (with Vite)
+- **JavaScript (ES6+)**
+- **Tailwind CSS / CSS3** (whichever you used)
+- **Netlify** for deployment
+
+---
+
+👨‍💻 Author
+Abhinav Thella
+<br>
+📧 abhinavt108@gmail.com
